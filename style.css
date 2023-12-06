@@ -22,11 +22,60 @@ body {
     height: 100vh;
 }
 
-header{
-    display: flex;
+header {
+    display: flex;   /* p/ ficar uma ao lado do outro */
     justify-content: space-around;   /* p/ dar um espaçamento */
-    max-width: 100%;   /*p/ ajudar no responssivo do site*/
-    align-items: center;
-    text-align: center;
+    max-width: 100%;   /* p/ ajudar no responssivo do site*/
+    align-items: center;   /* p/ centralizar todos os itens */
+    text-align: center;   /*  */
     padding-top: 1rem;
 }
+
+.cabeçalho-link {  
+    display: flex;    /* p/ ficar uma ao lado do outro */
+    gap: 3rem;   /* p/ dar um afastamento entre eles */
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.cabeçalho-link a{
+    color: white;
+    font-size: 12px;
+}
+
+.cabeçalho-link a:hover {
+    color: #0ac6ff;   /* meu azul */
+    font-size: 12px;
+    transition: 0.3s all;   /* 0.3 seg. transição de uma cor p/ outra */
+}
+
+.logo i {
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #0ac6ff;
+    color: #0ac6ff;
+    border-radius: 50%;  /* 50% p/ bordas ficarem arredondadas */
+    display: inline-flex;   /* p/ ficar flexivel, e colocar na posição desejada */
+    align-items: center;   /* p/ alinhar os itens e centralizar a logo dentro do circulo formado */
+    justify-content: center;   /* p/ centralizar o logo */
+    font-size: 13px;
+    cursor: pointer;  /* quando passar o mouse em cima, ele sai do ponteiro e passa a ser uma mãozinha */
+}
+
+button {
+    color: #0ac6ff;
+    background: transparent;
+    border: 1px solid #0ac6ff;
+    padding: 5px;
+    border-radius: 15px;   /* arredondando mínima coisa as bordas do botão (meu contato) */
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0ac6ff;
+    color: white;
+    transition: 0.5s;   /* tempo de uma transição de cor quando passar o mouse encima */
+}
+
