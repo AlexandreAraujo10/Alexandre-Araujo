@@ -22,10 +22,11 @@ body {
     height: 100vh;
 }
 
-header {
+header{
     display: flex;
     justify-content: space-around;   /* p/ dar um espaçamento */
     max-width: 100%;   /*p/ ajudar no responssivo do site*/
     align-items: center;
-    
+    text-align: center;
+    padding-top: 1rem;
 }
