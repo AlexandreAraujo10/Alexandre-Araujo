@@ -10,16 +10,18 @@
 }
 
 body {
-    overflow: hidden;
+    overflow: hidden;   /* p/ ajudar escurecer o background */
+   
 }
 
 .background {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background: linear-gradient(0, 0, 0, 0.5;);
     background-image: url(imagem/perfil.jpg);
     background-size: cover;
-    background-position: center;
-    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
     height: 100vh;
+    
 }
 
 header {
@@ -44,29 +46,16 @@ header {
 }
 
 .cabeçalho-link a:hover {
-    color: #0ac6ff;   /* meu azul */
+    color: #0a0dc0;   /* meu azul */
     font-size: 12px;
     transition: 0.3s all;   /* 0.3 seg. transição de uma cor p/ outra */
 }
 
-.logo i {
-    height: 40px;
-    width: 40px;
-    background: transparent;
-    border: 1px solid #0ac6ff;
-    color: #0ac6ff;
-    border-radius: 50%;  /* 50% p/ bordas ficarem arredondadas */
-    display: inline-flex;   /* p/ ficar flexivel, e colocar na posição desejada */
-    align-items: center;   /* p/ alinhar os itens e centralizar a logo dentro do circulo formado */
-    justify-content: center;   /* p/ centralizar o logo */
-    font-size: 13px;
-    cursor: pointer;  /* quando passar o mouse em cima, ele sai do ponteiro e passa a ser uma mãozinha */
-}
 
 button {
-    color: #0ac6ff;
+    color:#0a0dc0;
     background: transparent;
-    border: 1px solid #0ac6ff;
+    border: 1px solid #0a0dc0;
     padding: 5px;
     border-radius: 15px;   /* arredondando mínima coisa as bordas do botão (meu contato) */
     font-size: 15px;
@@ -74,10 +63,59 @@ button {
 }
 
 button:hover {
-    background-color: #0ac6ff;
+    background-color: #0a0dc0;
     color: white;
     transition: 0.5s;   /* tempo de uma transição de cor quando passar o mouse encima */
 }
+
+.container-text {
+    padding-top: 150px;
+    padding-left: 150px;
+    
+}
+
+.btn {
+    margin: 10px;
+}
+
+.text h3 {
+    color: white;
+    font-size: 20px;
+}
+
+.text h1 {
+    color: white;
+    margin-top: 20px;
+}
+
+.text p {
+    color: white;
+    font-size: 11px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.text span {
+    color: #0a0dc0;
+}
+
+.redes-sociais {
+    margin-top: 20px;
+}
+
+.redes-sociais a {
+    color: #0a0dc0;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.redes-sociais a:hover {
+    background-color: cornflowerblue;
+    border-radius: 15px;
+
+}
+
+
 
 
 
