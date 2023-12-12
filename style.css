@@ -75,7 +75,7 @@ button:hover {
 }
 
 .btn {
-    margin: 10px;
+    margin: 15px;
 }
 
 .text h3 {
@@ -90,7 +90,7 @@ button:hover {
 
 .text p {
     color: white;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 300;
     margin-top: 10px;
 }
@@ -107,6 +107,7 @@ button:hover {
     color: #0a0dc0;
     padding: 10px;
     margin-top: 25px;
+    font-size: 25px;
 }
 
 .redes-sociais a:hover {
